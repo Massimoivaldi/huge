@@ -65,7 +65,7 @@ return array(
     'DB_HOST' => '127.0.0.1',
     'DB_NAME' => 'huge',
     'DB_USER' => 'root',
-    'DB_PASS' => '12345678',
+    'DB_PASS' => 'f7abb152d599f7cdcd6de94864278535acecd7de4fbc5631',
     'DB_PORT' => '3306',
     'DB_CHARSET' => 'utf8',
     /**

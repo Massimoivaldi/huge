@@ -9,7 +9,7 @@
 [![Dependency Status](https://www.versioneye.com/user/projects/54ca11fbde7924f81a000010/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54ca11fbde7924f81a000010)
 [![Support](https://supporterhq.com/api/b/9guz00i6rep05k1mwxyquz30k)](https://supporterhq.com/give/9guz00i6rep05k1mwxyquz30k)
 
-Just a simple user authentication solution inside a super-simple framework skeleton that works out-of-the-box
+Justo a simple user authentication solution inside a super-simple framework skeleton that works out-of-the-box
 (and comes with an auto-installer), using the future-proof official bcrypt password hashing/salting implementation of 
 PHP 5.5+, plus some nice features that will speed up the time from idea to first usable prototype application 
 dramatically. Nothing more. This project has its focus on hardcore simplicity. Everything is as simple as possible, 
