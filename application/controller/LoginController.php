@@ -1,5 +1,4 @@
 <?php
-
 /**
  * LoginController
  * Controls everything that is authentication-related
