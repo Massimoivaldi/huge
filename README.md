@@ -21,7 +21,7 @@ php framework for agile developement
 #### Quick-Index 
 
 + [Features](#features)
-+ [Live-Demo](#live-demo)
+
 + [Support](#support)
 + [Follow the project](#follow)
 + [License](#license)
@@ -100,9 +100,7 @@ which are some of my other older projects. Super-minimal micro frameworks for ex
 
 * A real documentation (currently there's none, but the code is well commented)
   
-### Live-Demo <a name="live-demo"></a>
 
-See a [live demo of older 3.0 version here](http://104.131.8.128) and [the server's phpinfo() here](104.131.8.128/info.php).
 
 ### Support the project <a name="support"></a>
 
