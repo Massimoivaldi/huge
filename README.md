@@ -1,4 +1,3 @@
-![HUGE, formerly "php-login" logo](_pictures/huge.png)
 
 # HUGE
 
@@ -11,46 +10,9 @@ FORKED AN MODIFIED SOMEWHERE, TAKE CARE
 [![Dependency Status](https://www.versioneye.com/user/projects/54ca11fbde7924f81a000010/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54ca11fbde7924f81a000010)
 [![Support](https://supporterhq.com/api/b/9guz00i6rep05k1mwxyquz30k)](https://supporterhq.com/give/9guz00i6rep05k1mwxyquz30k)
 
-Justo a simple user authentication solution inside a super-simple framework skeleton that works out-of-the-box
-(and comes with an auto-installer), using the future-proof official bcrypt password hashing/salting implementation of 
-PHP 5.5+, plus some nice features that will speed up the time from idea to first usable prototype application 
-dramatically. Nothing more. This project has its focus on hardcore simplicity. Everything is as simple as possible, 
-made for smaller projects, typical agency work and quick drafts. If you want to build massive corporate 
-applications with all the features modern frameworks have, then have a look at [Laravel](http://laravel.com), 
-[Symfony](http://symfony.com) or [Yii](http://www.yiiframework.com), but if you just want to quickly create something
-that just works, then this script might be interesting for you.
+php framework for agile developement
 
-HUGE's simple-as-possible architecture was inspired by several conference talks, slides and articles about huge 
-applications that - surprisingly and intentionally - go back to the basics of programming, using procedural programming, 
-static classes, extremely simple constructs, not-totally-DRY code etc. while keeping the code extremely readable 
-([StackOverflow](http://www.dev-metal.com/architecture-stackoverflow/), Wikipedia, SoundCloud).
 
-Some interesting Buzzwords in this context: [KISS](http://en.wikipedia.org/wiki/KISS_principle), 
-[YAGNI](http://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it), [Feature Creep](https://en.wikipedia.org/wiki/Feature_creep),
-[Minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product).
-
-#### HUGE has reached "soft End Of Life"
-
-To keep this project stable, secure, clean and minimal I've decided to reduce the development of HUGE to a 
-minimum. *Don't worry, this is actually a good thing:* New features usually mean new bugs, lots of testing, fixes, 
-incompatibilities, and for some people even hardcore update stress. As HUGE is a security-critical script new features 
-are not as important as a stable and secure core, this is why people use it. This means:
-
-- HUGE will not get new features
-- but will be maintained, so it will get bugfixes, corrections etc for sure, maybe for years
-
-And to be honest, maintaining a framework for free in my rare free-time is also not what I want to do permanently. :)
-
-Finally a little note: The PHP world has evolved dramatically, we have excellent frameworks with awesome features and 
-big professional teams behind, very well written documentations and large communities, so there's simply no reason 
-to put much work into another framework. Instead, please commit to the popular frameworks, then your work will have
-much more impact and is used by much more people!
-
-Thanks to everybody around this project, have a wonderful time! 
-XOXO,
-Chris
-
-#### Releases & development  
 
 * stable [v3.1](https://github.com/panique/huge/releases/tag/v3.1),
 * public beta branch: [master](https://github.com/panique/huge)
@@ -76,8 +38,7 @@ Chris
     - [How to use the user roles](#user_roles)
     - [How to use the CSRF feature](#csrf)
 + [Community-provided features & feature discussions](#community)
-+ [Future of the project, announcing soft EOL](#future)
-+ [Why is there no support forum anymore ?](#why-no-support-forum)
+
 + [Zero tolerance for idiots, trolls and vandals](#zero-tolerance)
 + [Contribute](#contribute)
 + [Code-Quality scanner links](#code-quality)
@@ -479,19 +440,7 @@ to go into the main version of HUGE, but have a look into these tickets if you a
  - [HTML mails](https://github.com/panique/huge/issues/738)
  - [Deep user roles / user permission system](https://github.com/panique/huge/pull/691)
  
-### Future of HUGE: Announcing "soft End Of Life" <a name="future"></a>
- 
-The idea of this project is and was to provide a super-simple barebone application with a full user authentication
-system inside that just works fine and stable. Due to the highly security-related nature of this script any changes 
-mean a lot of work, lots of testing, catching edge cases etc., and in the end I spent 90% of the time testing and fixing
-new features or new features break existing stuff, and doing this is really not what anybody wants to do for free in
-the rare free-time :)
 
-To keep the project stable, clean and maintainable, I would kindly announce the "soft-End of Life" for this project, 
-meaning:
-
-A. HUGE will not get any new features in the future, but ...
-B. bugfixes and corrections will be made, probably for years
 
 ### Coding guideline behind HUGE
 
@@ -533,20 +482,7 @@ into your forks of the project:
 [ticket #603](https://github.com/panique/huge/issues/603)
 * How to run without using Composer [ticket #826](https://github.com/panique/huge/issues/826)
 
-### Why is there no support forum (anymore) ? <a name="why-no-support-forum"></a>
 
-There were two (!) support forums for v1 and v2 of this project (HUGE is v3), and both were vandalized by people who
-didn't even read the readme and / or the install guidelines. Most asked question was "script does not work plz help"
-without giving any useful information (like code or server setup or even the version used). While I'm writing these 
-lines somebody just asked via Twitter "how to install without Composer". You know what I mean :) - 99% of the questions 
-were not necessary if the people would had read the guidelines, do a minimal research on their own or would stop making 
-things so unnecessarily complicated. And even when writing detailed answers most of them still messed it up, resulting 
-in rants and complaints (for free support for a free software!). It was just frustrating to deal with this every day, 
-especially when people take it for totally granted that *it's the duty* of open-source developers to give detailed, 
-free and personal support for every "plz help"-request.
- 
-So I decided to completely stop any free support. For serious questions about real problems inside the script please
-use the GitHub issues feature.
 
 ### Zero tolerance for idiots, trolls and vandals! <a name="zero-tolerance"></a>
 
